@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <TableView fx:id="tblPerson" AnchorPane.bottomAnchor="3" AnchorPane.rightAnchor="3" AnchorPane.topAnchor="3" AnchorPane.leftAnchor="3">
+        <columns>
+            <TableColumn text="ID">
+                <cellValueFactory>
+                    <PropertyValueFactory property="id" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn text="First Name">
+                <cellValueFactory>
+                    <PropertyValueFactory property="firstName" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Last Name">
+                <cellValueFactory>
+                    <PropertyValueFactory property="lastName" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn text="E-Mail">
+                <cellValueFactory>
+                    <PropertyValueFactory property="email" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Company">
+                <cellValueFactory>
+                    <PropertyValueFactory property="company" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Area Code">
+                <cellValueFactory>
+                    <PropertyValueFactory property="areaCode" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Phone Number">
+                <cellValueFactory>
+                    <PropertyValueFactory property="phoneNumber" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Gender">
+                <cellValueFactory>
+                    <PropertyValueFactory property="gender" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Birth Date">
+                <cellValueFactory>
+                    <PropertyValueFactory property="birthDate" />
+                </cellValueFactory>
+            </TableColumn>
+        </columns>
+    </TableView>
+</AnchorPane>

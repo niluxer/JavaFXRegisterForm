@@ -1,0 +1,15 @@
+
+.btn-danger {
+  -fx-background-color: red;
+  -fx-text-fill: white;
+}
+
+.btn-success {
+  -fx-background-color: green;
+  -fx-text-fill: white;
+}
+
+.btn-info {
+  -fx-background-color: blue;
+  -fx-text-fill: white;
+}
